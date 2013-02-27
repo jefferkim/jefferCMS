@@ -1,0 +1,144 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+
+body{ font-size:12px; color:#5d4832;background: url(../images/nybj.jpg) repeat-x left top #ffffff; }
+a {  color:#5d4832; font-size:12px; text-decoration:none; font-family:Arial, Helvetica, sans-serif; }
+
+a:hover { color:#5d4832; font-size:12px; text-decoration:none; font-family:Arial, Helvetica, sans-serif;}
+
+
+.left{ float:left;}
+.right{ float:right;}
+
+
+.clearfix:after {content:"."; display:block; height:0; clear:both; visibility:hidden; }
+.clearfix { display:inline-block; }/* Hides from IE-mac \*/
+* html .clearfix { height:1%; }
+.clearfix { display:block; }/* End hide from IE-mac */
+
+
+.clear_cs{height:0px;font-size:0px; line-height:0px;clear:both;over-flow:hidden; }
+
+/***************header css********************/
+
+
+
+
+.notice{ width:948px; height:23px;}
+
+.ny_notice{ width:948px; height:31px;}
+
+.ny_notice .s_left{ width:auto; height:31px; float:left; line-height:31px; color:#ecdccd}
+.ny_notice .s_right{ width:auto; height:31px; float:right;}
+.ny_notice .s_right .label_font{ width:auto; height:31px; line-height:31px; float:left; color:#FFF; padding-left:10px;}
+.ny_notice .s_right .input01{ width:67px; height:18px; background:#ccc0b0; float:left; border:none; margin-top:6px; line-height:18px;}
+.ny_notice .s_right .l_btn{ width:46px; height:18px; line-height:18px; color:#FFF; background:#ccc0b0; text-align:center; margin-top:6px; border:solid 1px #FFF; margin-left:10px; display:inline; cursor:pointer; line-height:18px; float:left;}
+
+.p_s_input{ width:114px; height:22px; background:url(../images/p_input.jpg) no-repeat left top; border:none; float:left; line-height:22px; text-indent:4px; }
+.p_s_btn{ width:24px; height:22px; background:url(../images/s_btn.jpg) no-repeat left top; float:left; border:none; cursor:pointer}
+
+
+.top{ width:948px; height:131px;}
+.logo{ width:385px; height:131px; float:left; display:block;}
+.nytop{ width:948px; height:132px;}
+.nylogo{ width:385px; height:123px; float:left; display:block;}
+
+
+
+.menu{ width:563px; height:74px; float:right; padding-top:57px; }
+.menu ul li{ width:auto; height:74px; float:left; display:block;}
+/*.menu ul li a{ line-height:74px; height:74px; font-size:16px;color:#4d331b; font-family:"幼圆";}
+.menu ul li a:hover{ line-height:74px; height:74px; font-size:16px;color:#9a3250; font-family:"幼圆";}
+*/
+.ny_menu{ width:563px; height:74px; float:right; padding-top:49px; }
+.ny_menu ul li{ width:auto; height:74px; float:left; display:block;}
+/*.ny_menu ul li a{ line-height:74px; height:74px; font-size:16px;color:#4d331b; font-family:"幼圆";}
+.ny_menu ul li a:hover{ line-height:74px; height:74px; font-size:16px;color:#9a3250; font-family:"幼圆";}
+*/
+
+
+
+.syflash{ width:940px; height:411px; float:left; padding-left:3px; margin-top:1px;}
+
+.home_two{width:948px; height:auto;margin-top:16px;}
+.sy_dh{ width:610px; height:140px; float:left;}
+.sy_dh li{ width:auto; height:140px; float:left;}
+.sy_member{ width:222px; height:90px; float:left; margin-left:22px; display:inline; background:url(../images/sy_m_bj.jpg) no-repeat left top; padding:40px 10px 10px 80px;}
+.s_input{ width:156px; height:16px; background:#FFF; border:solid 1px #dcccb7;}
+.login_btn{ width:50px; height:21px; background: url(../images/login_btn.jpg) no-repeat left top ; border:none; cursor:pointer; float:left;}
+.reg_btn{ width:50px; height:21px; background: url(../images/reg_btn.jpg) no-repeat left top ; border:none; cursor:pointer; margin-left:18px; display:inline;}
+
+
+.ny_member_one{ width:948px; height:auto;}
+.ny_member_one .ny_left{ width:720px; height:auto; float:left;}
+.ny_member_one .ny_left .title{ width:720px; height:110px;}
+.ny_member_one .ny_left .cont{ width:auto; height:210px;  padding:5px 40px;}
+.ny_member_one .ny_right{ width:212px; height:272px; float:right; margin-top:66px; background:url(../images/member_bj.jpg) repeat-y left top;}
+.ny_member_one .ny_right .title{ width:212px; height:74px;}
+.ny_member_one .ny_right .span_input{ width:184px; height:34px; margin:0 auto; display:block;}
+.ny_member_one .ny_right .m_input{ width:184px; height:34px; background:url(../images/s_input.jpg) no-repeat left top; border:none; margin:0 auto; line-height:34px; text-indent:8px;}
+.ny_member_one .ny_right .m_btn{ width:74px; height:27px; background:url(../images/btn.jpg) no-repeat left top; border:none; float:right; cursor:pointer} 
+
+
+.ny_member_two{ width:948px; height:auto;}
+.ny_member_two .title{ width:948px; height:77px;}
+
+.ny_member_two .cont{ width:879px; height:365px; background:url(../images/lipin.jpg) no-repeat left top; margin-top:10px; margin:0 auto; padding:10px 30px;}
+
+
+.ny_cont{ width:948px;  min-height:524px; height:auto !important; height:524px; overflow:visible; margin:0 auto; margin-top:19px; }
+.ny_cont .ny_left{ width:239px; height:auto; float:left;}
+.ny_cont .ny_left .title{ width:239px; height:121px;}
+.ny_cont .ny_left  ul{ width:185px; height:auto; margin:0 auto;}
+.ny_cont .ny_left  ul li{ width:185px; height:51px; background:url(../images/left_li.jpg) no-repeat left top; text-align:center;}
+.ny_cont .ny_left  ul li  a{ height:51px; line-height:51px;}
+.ny_cont .ny_left  ul li  a:hover{ height:51px; line-height:51px; color:#9a3250}
+.ny_cont .ny_right{ width:706px; height:auto; float:left;}
+.ny_cont .ny_right .title{ width:706px; height:113px;}
+.ny_cont .ny_right .cont{ padding-top:40px; width:706px; height:auto;}
+
+.news_list{ width:663px; height:auto; margin:0 auto;}
+.news_list li{ width:663px; height:39px; background:url(../images/li1.jpg) no-repeat left top; text-indent:15px;}
+.news_list li span{ float:right; line-height:39px;}
+.news_list li a{ height:39px; line-height:39px;}
+.news_list li a:hover{ height:39px; line-height:39px;}
+
+.ny_cont .cx_title{ width:948px; height:104px;}
+.ny_cont .cx_cont{ width:918px; height:auto; padding:15px;}
+.ny_cont .case_title{ width:948px; height:113px;}
+.ny_cont .case_cont{ width:918px; height:auto; padding:15px;}
+
+.ny_pro{ width:948px; height:auto; margin-top:8px;}
+.ny_pro_one{ width:948px; height:443px;}
+.ny_pro_one .one_left{ width:219px; height:443px; float:left; background:url(../images/p_left_one_bj.jpg) repeat-y left top; overflow:visible}
+.ny_pro_one .one_left ul{ height:432px; background:url(../images/p_one_left_top.jpg) no-repeat left top; padding-top:4px;}
+.ny_pro_one .one_left ul li{ width:219px; height:54px; background:url(../images/li_bj.jpg) no-repeat left top; text-indent:30px; position:relative}
+.ny_pro_one .one_left ul li a{ height:54px; line-height:54px; font-family:"微软雅黑"; font-size:14px; font-weight:bold}
+.ny_pro_one .one_left ul li a:hover{ height:54px; line-height:54px; font-family:"微软雅黑"; font-size:14px; font-weight:bold; display:block; width:219px; background:url(../images/hover.jpg) no-repeat left top; color:#9a3250}
+.ny_pro_one .one_left ul li.current{height:54px; line-height:54px; font-family:"微软雅黑"; font-size:14px; font-weight:bold; display:block; width:219px; background:url(../images/hover.jpg) no-repeat left top; color:#9a3250}
+.ny_pro_one .one_left ul li.current a{color:#9a3250}
+
+.ny_pro_one .one_left ul li .two_type{ width:234px;  min-height:54px; height:auto !important; height:54px; overflow:visible; border:solid 3px #e8decd; position:absolute; left:209px; top:0px; background:#fff9e7; z-index:9; overflow:visible; display:none}
+.ny_pro_one .one_left ul li .two_type dl{ position:relative; padding:5px 0px;}
+.ny_pro_one .one_left ul li .two_type dl  span{ width:4px; height:47px; background:#fff9e7; position:absolute; left:-4px; top:0px; display:block}
+.ny_pro_one .one_left ul li .two_type dl dt{ width:200px; height:32px; border-bottom:solid 1px #d7ccb9; margin:0 auto; text-indent:20px; background:none;}
+.ny_pro_one .one_left ul li .two_type dl dt a{ width:200px; height:32px; line-height:32px; font-weight:normal; font-family:"宋体"; font-size:12px; display:block; color:#5D4832}
+.ny_pro_one .one_left ul li .two_type dl dt a:hover{width:200px; display:block; height:32px; line-height:32px; font-weight:normal; font-family:"宋体"; font-size:12px; color:#9a3250; background:none}
+
+.ny_pro_one .one_left ul li .two_type dl dd{ width:200px; height:auto;  margin:0 auto; text-indent:20px; background:none;}
+.ny_pro_one .one_left ul li .two_type dl dd a{ width:98px; height:26px; line-height:26px; font-weight:normal; font-family:"宋体"; font-size:12px; display:block; color:#9a3250; float:left; display:inline-block}
+.ny_pro_one .one_left ul li .two_type dl dd a:hover{ width:98px; height:26px; line-height:26px; font-weight:normal; font-family:"宋体"; font-size:12px; display:block; color:#9a3250; float:left; display:inline-block;  background:none}
+
+.ny_pro_one .one_right{ width:716px; height:434px; float:right; margin-top:6px;}
+
+.ny_pro_two{ width:948px; height:auto;}
+.ny_pro_two .title{ width:948px; height:82px;}
+.ny_pro_two ul{ padding-top:10px;}
+.ny_pro_two ul li{ width:219px; height:271px; float:left; margin-left:15px; display:inline}
+.ny_pro_two ul li .pic{ width:219px; height:146px;}
+.ny_pro_two ul li .proname{ width:219px; height:40px; border-bottom:solid 1px #e5e5e5; text-indent:20px; line-height:40px; font-size:14px;}
+.ny_pro_two ul li .memo{ width:200px; height:auto; line-height:24px; padding-left:19px; color:#7b7b7b; padding-top:4px;}
+
+.foot{ width:948px; height:auto; margin:0 auto;}

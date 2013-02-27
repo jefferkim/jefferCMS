@@ -1,0 +1,24 @@
+/*所以的属性如果你 不需要 ，请删那一行*/
+
+
+.in_propic{  /*这是首页 产品滚动图的样式*/
+	border:1px solid #cccccc;   /*小图的边框样式  solid 是实线，dashed为虚线  */
+	padding:2px;  /*小图边框与图片的间距*/
+	width:160px;  /*小图宽度*/
+	height:120px; /*小图高度*/
+	}
+
+.prolist{  /*这是产品列表页 小图的样式*/
+	border:1px solid #cccccc;   /*小图的边框样式  solid 是实线，dashed为虚线  */
+	padding:2px;  /*小图边框与图片的间距*/
+	width:160px;  /*小图宽度*/
+	height:120px; /*小图高度*/
+	}
+	
+	
+.probigpic{  /*这里是产品内页大图的样式*/
+	border:1px solid #cccccc;   /*大图的边框样式  solid 是实线，dashed为虚线  */
+	padding:2px;  /*大图边框与图片的间距*/
+	width:160px;  /*大图宽度*/
+	height:120px; /*大图高度*/
+	}

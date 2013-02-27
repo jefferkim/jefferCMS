@@ -1,0 +1,72 @@
+.nivoSlider IMG {
+	POSITION: absolute; DISPLAY: none; TOP: 0px; LEFT: 0px
+}
+.nivoSlider {
+	POSITION: relative; OVERFLOW: hidden
+}
+#slider {
+	WIDTH: 716px
+}
+.nivoSlider IMG {
+	WIDTH: 716px
+}
+.nivo-slice {
+	Z-INDEX: 5; POSITION: absolute; DISPLAY: block; HEIGHT: 100%
+}
+.nivo-box {
+	Z-INDEX: 5; POSITION: absolute; DISPLAY: block
+}
+.nivo-caption {
+	Z-INDEX: 8; POSITION: absolute; BOTTOM: 0px; FONT-FAMILY: "Î¢ÈíÑÅºÚ", Verdana, Geneva, sans-serif; HEIGHT: 46px; FONT-SIZE: 14px; OVERFLOW: hidden; RIGHT: 0px
+}
+.nivo-caption P {
+	MARGIN: 0px
+}
+.nivo-caption SPAN {
+	PADDING-BOTTOM: 0px; LINE-HEIGHT: 46px; PADDING-LEFT: 20px; PADDING-RIGHT: 50px; FLOAT: left; COLOR: #fff; PADDING-TOP: 0px
+}
+.nivo-caption A {
+	WIDTH: 78px; DISPLAY: block; BACKGROUND: url(caption-link.png) no-repeat left 50%; FLOAT: right; HEIGHT: 46px
+}
+.nivo-caption {
+	BACKGROUND-COLOR: #9a3250
+}
+.proj-img I {
+	BACKGROUND-COLOR: #9a3250
+}
+.nivo-html-caption {
+	DISPLAY: none
+}
+.nivo-directionNav {
+	Z-INDEX: 9; POSITION: absolute; WIDTH: 78px; BOTTOM: 46px; BACKGROUND: #fff; OVERFLOW: hidden; RIGHT: 0px
+}
+.nivo-prevNav {
+	TEXT-INDENT: 9999px; WIDTH: 39px; FLOAT: left; HEIGHT: 39px; CURSOR: pointer
+}
+.nivo-nextNav {
+	TEXT-INDENT: 9999px; WIDTH: 39px; FLOAT: left; HEIGHT: 39px; CURSOR: pointer
+}
+.nivo-prevNav {
+	BACKGROUND: url(slider-arrows.png) no-repeat left top
+}
+.nivo-nextNav {
+	BACKGROUND: url(slider-arrows.png) no-repeat right top
+}
+.nivo-prevNav:hover {
+	BACKGROUND-POSITION: left bottom
+}
+.nivo-nextNav:hover {
+	BACKGROUND-POSITION: right bottom
+}
+.nivo-controlNav {
+	Z-INDEX: 20; POSITION: absolute; BOTTOM: 22px; HEIGHT: 8px; OVERFLOW: hidden; LEFT: 20px
+}
+.nivo-controlNav A {
+	LINE-HEIGHT: 10em; MARGIN: 0px 11px 0px 0px; WIDTH: 8px; DISPLAY: inline-block; BACKGROUND: url(nivo-controls.png) no-repeat left top; HEIGHT: 8px; CURSOR: pointer
+}
+.nivo-controlNav A.active {
+	BACKGROUND: url(nivo-controls.png) no-repeat right top
+}
+#preloader {
+	Z-INDEX: 51; POSITION: relative; WIDTH: 716px; BACKGROUND: url(loading.gif) no-repeat 50% 50%; HEIGHT: 80px
+}
